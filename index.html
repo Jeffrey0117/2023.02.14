@@ -117,13 +117,6 @@ body{
     line-height: 1.3;
 }
 
-.lovepng{
-    position: absolute;
-    top: 1100px;
-    left: 20px;
-    width: 200px;
-}
-
 .all{
     margin-left: 0px;
     width: 425px;
@@ -162,6 +155,8 @@ body{
     font-family: -apple-system,BlinkMacSystemFont,Microsoft JhengHei,微軟正黑體,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,Helvetica,Arial,sans-serif;
     text-align: center;
     margin-left: -7px;
+    margin-top: 500px;
+    margin-bottom: 500px;
 }
 
 .last-q{
@@ -212,8 +207,7 @@ body{
             <h1>第一站：淡大101</h1>
             <p>這是驊達第一次見面的地方，達達從八里不顧風雨🌊騎到淡水，只為吃肉老大，那是一個奇幻的念頭，是達達2022年一個最浪漫的念頭💛。</p>
         </div>
-        <img class="ig" src="https://i.imgur.com/SNrtKtK.png" alt="" referrerpolicy="no-referrer">
-        <img class="lovepng" src="love.png" alt="" referrerpolicy="no-referrer">
+        <img class="ig" src="https://i.imgur.com/By3tO59.png" alt="" referrerpolicy="no-referrer">
 
         <div class="quotation">
             <span>「有些事，一萬年也不會改變。」</span>
@@ -225,7 +219,7 @@ body{
         <img class="ig" src="https://i.imgur.com/kyU4I9N.png" alt="" referrerpolicy="no-referrer">
 
         <div class="quotation">
-            <span>「愛是翅膀，能夠展翅飛翔，亦能墜落。」</span>
+            <span>「愛是翅膀，能夠展翅飛翔，<br>亦能墜落。」</span>
         </div>
         <div class="process-content">
             <h1>第三站：B2尋找記</h1>
@@ -277,12 +271,15 @@ body{
     <div class="footer">
         <h2>2023.02.14 </h2>
         <h2>謝謝妳，乃驊，在我生命中出現</h2>
+
+        <h2>　　　　　　　　　　　by均達</h2>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 <script>
     $('.btngo').on('click',function(){
         $('.footer').show();
+        $('.btngo').css('width','200px')
         $('.btngo').text('Look down here')
     })
 </script>
